@@ -1,8 +1,3 @@
-*/
-<p align="center">
-<img src="/logo/ear-o_logo.png" title="Github Logo" width=150>
-</p>
-/*
 
 # Project
 
