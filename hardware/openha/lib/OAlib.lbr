@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.2">
+<eagle version="9.2.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -166,15 +166,6 @@
 <smd name="4" x="-0.5" y="0.81" dx="0.3" dy="0.99" layer="1"/>
 <smd name="5" x="0" y="0.81" dx="0.3" dy="0.99" layer="1"/>
 </package>
-<package name="USB-MICRO-DUMMY">
-<pad name="1" x="-1.27" y="0" drill="0.6" shape="square"/>
-<pad name="2" x="-1.27" y="1.27" drill="0.6" shape="square"/>
-<pad name="3" x="-1.27" y="2.54" drill="0.6" shape="square"/>
-<pad name="4" x="-1.27" y="3.81" drill="0.6" shape="square"/>
-<pad name="5" x="-1.27" y="5.08" drill="0.6" shape="square"/>
-<pad name="6" x="1.27" y="5.08" drill="0.6" shape="square"/>
-<pad name="7" x="3.81" y="5.08" drill="0.6" shape="square"/>
-</package>
 <package name="WLCSP72">
 <smd name="A1" x="-1.6" y="1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
 <smd name="A2" x="-1.2" y="1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
@@ -284,11 +275,9 @@
 <smd name="6" x="1.435" y="0.95" dx="0.84" dy="0.4" layer="1" rot="R180"/>
 <smd name="7" x="0" y="0" dx="1.625" dy="2.365" layer="1" rot="R180" cream="no"/>
 </package>
-<package name="CAPC0603X30" urn="urn:adsk.eagle:footprint:3714368/1" locally_modified="yes">
+<package name="0201_X30" urn="urn:adsk.eagle:footprint:3714368/1" locally_modified="yes">
 <description>CHIP, 0.6 X 0.3 X 0.3 mm body
 &lt;p&gt;CHIP package with body size 0.6 X 0.3 X 0.3 mm&lt;/p&gt;</description>
-<wire x1="0.315" y1="0.5124" x2="-0.315" y2="0.5124" width="0.12" layer="21"/>
-<wire x1="0.315" y1="-0.5124" x2="-0.315" y2="-0.5124" width="0.12" layer="21"/>
 <wire x1="0.315" y1="-0.165" x2="-0.315" y2="-0.165" width="0.12" layer="51"/>
 <wire x1="-0.315" y1="-0.165" x2="-0.315" y2="0.165" width="0.12" layer="51"/>
 <wire x1="-0.315" y1="0.165" x2="0.315" y2="0.165" width="0.12" layer="51"/>
@@ -296,6 +285,10 @@
 <smd name="1" x="-0.3209" y="0" dx="0.455" dy="0.3969" layer="1"/>
 <smd name="2" x="0.3209" y="0" dx="0.455" dy="0.3969" layer="1"/>
 <text x="0" y="0.7664" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
+<wire x1="-0.889" y1="0.508" x2="0.889" y2="0.508" width="0.05" layer="51"/>
+<wire x1="0.889" y1="0.508" x2="0.889" y2="-0.508" width="0.05" layer="51"/>
+<wire x1="0.889" y1="-0.508" x2="-0.889" y2="-0.508" width="0.05" layer="51"/>
+<wire x1="-0.889" y1="-0.508" x2="-0.889" y2="0.508" width="0.05" layer="51"/>
 </package>
 <package name="MIC-PACK">
 <smd name="GND" x="-1.225" y="0" dx="0.35" dy="2.3" layer="1"/>
@@ -386,20 +379,6 @@
 <smd name="RADIATOR" x="-0.625" y="0" dx="0.35" dy="0.8" layer="1"/>
 <smd name="FEED" x="0.625" y="0" dx="0.35" dy="0.8" layer="1"/>
 </package>
-<package name="CAPC2215X70" urn="urn:adsk.eagle:footprint:3713112/1" locally_modified="yes">
-<description>CHIP, 2.2352 X 1.5985 X 0.7 mm body
-&lt;p&gt;CHIP package with body size 2.2352 X 1.5985 X 0.7 mm&lt;/p&gt;</description>
-<wire x1="1.1176" y1="1.2216" x2="-1.1176" y2="1.2216" width="0.12" layer="21"/>
-<wire x1="1.1176" y1="-1.2216" x2="-1.1176" y2="-1.2216" width="0.12" layer="21"/>
-<wire x1="1.1176" y1="-0.9" x2="-1.1176" y2="-0.9" width="0.12" layer="51"/>
-<wire x1="-1.1176" y1="-0.9" x2="-1.1176" y2="0.9" width="0.12" layer="51"/>
-<wire x1="-1.1176" y1="0.9" x2="1.1176" y2="0.9" width="0.12" layer="51"/>
-<wire x1="1.1176" y1="0.9" x2="1.1176" y2="-0.9" width="0.12" layer="51"/>
-<smd name="1" x="-0.8269" y="0" dx="1.3932" dy="1.8152" layer="1"/>
-<smd name="2" x="0.8269" y="0" dx="1.3932" dy="1.8152" layer="1"/>
-<text x="0" y="1.4756" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-1.4756" size="0.4064" layer="27" align="top-center">&gt;VALUE</text>
-</package>
 <package name="2PINCON">
 <smd name="P$1" x="0" y="0.889" dx="1.27" dy="0.635" layer="1"/>
 <smd name="P$2" x="0" y="0" dx="1.27" dy="0.635" layer="1"/>
@@ -414,52 +393,6 @@
 <circle x="0.036103125" y="0.01805" radius="1.275" width="0.0254" layer="21"/>
 <circle x="0.036103125" y="0.01805" radius="1.05" width="0.0254" layer="21"/>
 <wire x1="-0.127" y1="1.0414" x2="0.127" y2="1.0414" width="0.0254" layer="21" curve="180"/>
-</package>
-<package name="CAS-220A1">
-<description>&lt;b&gt;CAS-220A1&lt;/b&gt;&lt;br&gt;
-</description>
-<smd name="1" x="-1.75" y="-2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<smd name="2" x="0" y="-2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<smd name="3" x="1.75" y="-2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<smd name="4" x="-1.75" y="2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<smd name="5" x="0" y="2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<smd name="6" x="1.75" y="2.05" dx="1.6" dy="1" layer="1" rot="R90"/>
-<text x="-0.123" y="-0.695" size="0.4064" layer="25" align="center">&gt;NAME</text>
-<text x="-0.123" y="0.702" size="0.4064" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.7" y1="1.95" x2="2.7" y2="1.95" width="0.254" layer="51"/>
-<wire x1="2.7" y1="1.95" x2="2.7" y2="-1.95" width="0.254" layer="51"/>
-<wire x1="2.7" y1="-1.95" x2="-2.7" y2="-1.95" width="0.254" layer="51"/>
-<wire x1="-2.7" y1="-1.95" x2="-2.7" y2="1.95" width="0.254" layer="51"/>
-<wire x1="-2.7" y1="1.95" x2="-2.7" y2="-1.95" width="0.254" layer="21"/>
-<wire x1="2.7" y1="-1.95" x2="2.7" y2="1.95" width="0.254" layer="21"/>
-<circle x="-2.34" y="-3.239" radius="0.089" width="0.254" layer="25"/>
-</package>
-<package name="SW_DPDT">
-<wire x1="0.635" y1="0.889" x2="-0.635" y2="0.889" width="0.12" layer="21"/>
-<wire x1="0.508" y1="0.216" x2="0.127" y2="0.216" width="0.12" layer="51"/>
-<wire x1="0.127" y1="0.216" x2="0.127" y2="0.546" width="0.12" layer="51"/>
-<wire x1="0.127" y1="0.546" x2="0.508" y2="0.546" width="0.12" layer="51"/>
-<wire x1="0.508" y1="0.546" x2="0.508" y2="0.216" width="0.12" layer="51"/>
-<smd name="1" x="-0.635" y="0.381" dx="0.455" dy="0.3969" layer="1"/>
-<smd name="2" x="0" y="0.381" dx="0.455" dy="0.3969" layer="1"/>
-<text x="0" y="1.1474" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
-<wire x1="-0.127" y1="0.216" x2="-0.508" y2="0.216" width="0.12" layer="51"/>
-<wire x1="-0.508" y1="0.216" x2="-0.508" y2="0.546" width="0.12" layer="51"/>
-<wire x1="-0.508" y1="0.546" x2="-0.127" y2="0.546" width="0.12" layer="51"/>
-<wire x1="-0.127" y1="0.546" x2="-0.127" y2="0.216" width="0.12" layer="51"/>
-<smd name="3" x="0.635" y="0.381" dx="0.455" dy="0.3969" layer="1"/>
-<wire x1="0.635" y1="-0.889" x2="-0.635" y2="-0.889" width="0.12" layer="21"/>
-<wire x1="0.508" y1="-0.546" x2="0.127" y2="-0.546" width="0.12" layer="51"/>
-<wire x1="0.127" y1="-0.546" x2="0.127" y2="-0.216" width="0.12" layer="51"/>
-<wire x1="0.127" y1="-0.216" x2="0.508" y2="-0.216" width="0.12" layer="51"/>
-<wire x1="0.508" y1="-0.216" x2="0.508" y2="-0.546" width="0.12" layer="51"/>
-<smd name="4" x="-0.635" y="-0.381" dx="0.455" dy="0.3969" layer="1"/>
-<smd name="5" x="0" y="-0.381" dx="0.455" dy="0.3969" layer="1"/>
-<wire x1="-0.127" y1="-0.546" x2="-0.508" y2="-0.546" width="0.12" layer="51"/>
-<wire x1="-0.508" y1="-0.546" x2="-0.508" y2="-0.216" width="0.12" layer="51"/>
-<wire x1="-0.508" y1="-0.216" x2="-0.127" y2="-0.216" width="0.12" layer="51"/>
-<wire x1="-0.127" y1="-0.216" x2="-0.127" y2="-0.546" width="0.12" layer="51"/>
-<smd name="6" x="0.635" y="-0.381" dx="0.455" dy="0.3969" layer="1"/>
 </package>
 <package name="47589-0001">
 <description>&lt;b&gt;MICRO USB RECEPTACLES&lt;/b&gt;&lt;br/&gt;
@@ -635,20 +568,119 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="-0.3" y1="-0.15" x2="-0.3" y2="0.15" width="0.1" layer="51"/>
 <wire x1="0" y1="0.05" x2="0" y2="-0.05" width="0.2" layer="21"/>
 </package>
+<package name="BGA25C40P5X5_219X228X60">
+<description>&lt;b&gt;Flip Chip 25 (2.3 x 2.2 mm)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="A1" x="-0.8" y="0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="A2" x="-0.4" y="0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="A3" x="0" y="0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="A4" x="0.4" y="0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="A5" x="0.8" y="0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="B1" x="-0.8" y="0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="B2" x="-0.4" y="0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="B3" x="0" y="0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="B4" x="0.4" y="0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="B5" x="0.8" y="0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="C1" x="-0.8" y="0" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="C2" x="-0.4" y="0" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="C3" x="0" y="0" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="C4" x="0.4" y="0" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="C5" x="0.8" y="0" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="D1" x="-0.8" y="-0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="D2" x="-0.4" y="-0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="D3" x="0" y="-0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="D4" x="0.4" y="-0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="D5" x="0.8" y="-0.4" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="E1" x="-0.8" y="-0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="E2" x="-0.4" y="-0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="E3" x="0" y="-0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="E4" x="0.4" y="-0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<smd name="E5" x="0.8" y="-0.8" dx="0.208" dy="0.208" layer="1" roundness="100"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-2.11" y1="2.155" x2="2.11" y2="2.155" width="0.05" layer="51"/>
+<wire x1="2.11" y1="2.155" x2="2.11" y2="-2.155" width="0.05" layer="51"/>
+<wire x1="2.11" y1="-2.155" x2="-2.11" y2="-2.155" width="0.05" layer="51"/>
+<wire x1="-2.11" y1="-2.155" x2="-2.11" y2="2.155" width="0.05" layer="51"/>
+<wire x1="-1.095" y1="1.14" x2="1.095" y2="1.14" width="0.1" layer="51"/>
+<wire x1="1.095" y1="1.14" x2="1.095" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="1.095" y1="-1.14" x2="-1.095" y2="-1.14" width="0.1" layer="51"/>
+<wire x1="-1.095" y1="-1.14" x2="-1.095" y2="1.14" width="0.1" layer="51"/>
+<wire x1="-1.095" y1="0.562" x2="-0.517" y2="1.14" width="0.1" layer="51"/>
+<wire x1="-0.8" y1="1.254" x2="1.254" y2="1.254" width="0.2" layer="21"/>
+<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.2" layer="21"/>
+<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.2" layer="21"/>
+<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="0.8" width="0.2" layer="21"/>
+<wire x1="-1.254" y1="0.8" x2="-0.8" y2="1.254" width="0.2" layer="21"/>
+<circle x="-1.254" y="1.254" radius="0.1" width="0.2" layer="25"/>
+</package>
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+<package name="C0201" urn="urn:adsk.eagle:footprint:23196/1">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
+</package>
+<package name="0302">
+<description>&lt;b&gt;MCZ1210DH900L2TA0G&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-0.25" y="-0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
+<smd name="2" x="0.25" y="-0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
+<smd name="3" x="0.25" y="0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
+<smd name="4" x="-0.25" y="0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
+<text x="0" y="-1.229" size="0.6096" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.184" size="0.6096" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-0.425" y1="0.325" x2="0.425" y2="0.325" width="0.2" layer="51"/>
+<wire x1="0.425" y1="0.325" x2="0.425" y2="-0.325" width="0.2" layer="51"/>
+<wire x1="0.425" y1="-0.325" x2="-0.425" y2="-0.325" width="0.2" layer="51"/>
+<wire x1="-0.425" y1="-0.325" x2="-0.425" y2="0.325" width="0.2" layer="51"/>
+<wire x1="-0.873" y1="0.75" x2="0.873" y2="0.75" width="0.1" layer="51"/>
+<wire x1="0.873" y1="0.75" x2="0.873" y2="-0.794" width="0.1" layer="51"/>
+<wire x1="0.873" y1="-0.794" x2="-0.873" y2="-0.794" width="0.1" layer="51"/>
+<wire x1="-0.873" y1="-0.794" x2="-0.873" y2="0.75" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="-0.246" x2="0.3" y2="-0.246" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="0.246" x2="0.3" y2="0.246" width="0.1" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="CAPC0603X30" urn="urn:adsk.eagle:package:3714360/1" locally_modified="yes" type="model">
 <description>CHIP, 0.6 X 0.3 X 0.3 mm body
 &lt;p&gt;CHIP package with body size 0.6 X 0.3 X 0.3 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="CAPC0603X30"/>
+<packageinstance name="0201_X30"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC2215X70" urn="urn:adsk.eagle:package:3713110/1" locally_modified="yes" type="model">
-<description>CHIP, 2.2352 X 1.5985 X 0.7 mm body
-&lt;p&gt;CHIP package with body size 2.2352 X 1.5985 X 0.7 mm&lt;/p&gt;</description>
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model">
+<description>Chip, 1.00 X 0.50 X 0.60 mm body
+&lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
-<packageinstance name="CAPC2215X70"/>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<packageinstances>
+<packageinstance name="C0201"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -743,20 +775,6 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <text x="-12.7" y="-6.858" size="1.27" layer="94">USBLC6-2</text>
 <pin name="O2" x="15.24" y="-2.54" length="short" rot="R180"/>
 <pin name="O1" x="15.24" y="2.54" length="short" rot="R180"/>
-</symbol>
-<symbol name="USB">
-<pin name="D+" x="-7.62" y="0" length="short"/>
-<pin name="D-" x="-7.62" y="2.54" length="short"/>
-<pin name="VCC" x="-7.62" y="5.08" length="short"/>
-<pin name="ID" x="-7.62" y="-2.54" length="short"/>
-<pin name="GND" x="-7.62" y="-5.08" length="short"/>
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<pin name="SH1" x="5.08" y="-10.16" length="short" rot="R90"/>
-<pin name="SH2" x="7.62" y="-10.16" length="short" rot="R90"/>
-<text x="-5.08" y="10.16" size="1.778" layer="94">USB-MICRO</text>
 </symbol>
 <symbol name="STM32L476JX">
 <pin name="VDDUSB" x="-35.56" y="40.64" length="middle" direction="pwr"/>
@@ -905,14 +923,14 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <text x="-7.62" y="3.302" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="CAP">
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="0.508" width="0.1524" layer="94"/>
-<text x="-1.016" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-1.016" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-4.572" y1="0.508" x2="-0.508" y2="1.016" layer="94"/>
-<rectangle x1="-4.572" y1="1.524" x2="-0.508" y2="2.032" layer="94"/>
-<pin name="1" x="-2.54" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="-2.54" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
+<wire x1="0" y1="1.27" x2="0" y2="0.762" width="0.1524" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-0.762" width="0.1524" layer="94"/>
+<text x="1.524" y="1.651" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="1.524" y="-3.429" size="1.778" layer="96" font="vector">&gt;VALUE</text>
+<rectangle x1="-2.032" y1="-0.762" x2="2.032" y2="-0.254" layer="94"/>
+<rectangle x1="-2.032" y1="0.254" x2="2.032" y2="0.762" layer="94"/>
+<pin name="1" x="0" y="3.81" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-3.81" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="BLUENRG-MS">
 <pin name="SPI_MOSI" x="-15.24" y="-20.32" length="short" direction="pwr"/>
@@ -1013,42 +1031,6 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <text x="-5.08" y="5.842" size="1.27" layer="94">4 PIN</text>
 <pin name="4" x="-7.62" y="-5.08" length="short"/>
 </symbol>
-<symbol name="CAS-220TA">
-<wire x1="-5.08" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="6.35" y="10.16" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="6.35" y="7.62" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle"/>
-<pin name="2" x="-10.16" y="0" visible="pad" length="middle"/>
-<pin name="3" x="-10.16" y="-2.54" visible="pad" length="middle"/>
-<pin name="4" x="10.16" y="2.54" visible="pad" length="middle" rot="R180"/>
-<pin name="5" x="10.16" y="0" visible="pad" length="middle" rot="R180"/>
-<pin name="6" x="10.16" y="-2.54" visible="pad" length="middle" rot="R180"/>
-<wire x1="-5.08" y1="2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="2.54" x2="-1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-1.778" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
-<circle x="-1.27" y="-2.54" radius="0.359209375" width="0.1524" layer="94"/>
-<circle x="-1.27" y="2.54" radius="0.359209375" width="0.1524" layer="94"/>
-<circle x="-4.064" y="0" radius="0.359209375" width="0.1524" layer="94"/>
-<wire x1="-3.556" y1="0" x2="-1.524" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-4.572" y2="0" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="1.778" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="1.778" y2="-2.54" width="0.1524" layer="94"/>
-<circle x="1.27" y="-2.54" radius="0.359209375" width="0.1524" layer="94"/>
-<circle x="1.27" y="2.54" radius="0.359209375" width="0.1524" layer="94"/>
-<circle x="4.064" y="0" radius="0.359209375" width="0.1524" layer="94"/>
-<wire x1="3.556" y1="0" x2="1.524" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="5.08" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
-</symbol>
 <symbol name="MICRO-USB-AB-RECEPTACLE">
 <wire x1="-5.08" y1="6.35" x2="-5.08" y2="-6.35" width="0.254" layer="94"/>
 <wire x1="-5.08" y1="-6.35" x2="-3.81" y2="-7.62" width="0.254" layer="94" curve="90"/>
@@ -1111,29 +1093,28 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <pin name="D4" x="5.08" y="22.86" length="middle" rot="R270"/>
 </symbol>
 <symbol name="STG3693QTR">
-<wire x1="-12.7" y1="17.78" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="12.7" y2="17.78" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="17.78" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
-<text x="13.97" y="22.86" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="13.97" y="20.32" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="1S2" x="-17.78" y="-2.54" length="middle"/>
-<pin name="VCC" x="-17.78" y="-5.08" length="middle"/>
-<pin name="1-2-3SEL" x="-17.78" y="-7.62" length="middle"/>
-<pin name="2S1" x="-17.78" y="-10.16" length="middle"/>
-<pin name="D2" x="-5.08" y="-25.4" length="middle" rot="R90"/>
-<pin name="2S2" x="-2.54" y="-25.4" length="middle" rot="R90"/>
-<pin name="3S1" x="0" y="-25.4" length="middle" rot="R90"/>
-<pin name="D3" x="2.54" y="-25.4" length="middle" rot="R90"/>
-<pin name="4S1" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="GND" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="4SEL" x="17.78" y="-7.62" length="middle" rot="R180"/>
-<pin name="3S2" x="17.78" y="-10.16" length="middle" rot="R180"/>
-<pin name="THERMAL_PAD" x="-5.08" y="22.86" length="middle" rot="R270"/>
-<pin name="D1" x="-2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="1S1" x="0" y="22.86" length="middle" rot="R270"/>
-<pin name="4S2" x="2.54" y="22.86" length="middle" rot="R270"/>
-<pin name="D4" x="5.08" y="22.86" length="middle" rot="R270"/>
+<wire x1="-12.7" y1="10.16" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="10.16" y2="10.16" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<text x="6.35" y="13.97" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="6.35" y="11.43" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1S2" x="-17.78" y="2.54" length="middle"/>
+<pin name="VCC" x="-17.78" y="0" length="middle"/>
+<pin name="1-2-3SEL" x="-17.78" y="-2.54" length="middle"/>
+<pin name="2S1" x="-17.78" y="-5.08" length="middle"/>
+<pin name="D2" x="-5.08" y="-17.78" length="middle" rot="R90"/>
+<pin name="2S2" x="-2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="3S1" x="0" y="-17.78" length="middle" rot="R90"/>
+<pin name="D3" x="2.54" y="-17.78" length="middle" rot="R90"/>
+<pin name="4S1" x="15.24" y="2.54" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="0" length="middle" rot="R180"/>
+<pin name="4SEL" x="15.24" y="-2.54" length="middle" rot="R180"/>
+<pin name="3S2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="D1" x="-5.08" y="15.24" length="middle" rot="R270"/>
+<pin name="1S1" x="-2.54" y="15.24" length="middle" rot="R270"/>
+<pin name="4S2" x="0" y="15.24" length="middle" rot="R270"/>
+<pin name="D4" x="2.54" y="15.24" length="middle" rot="R270"/>
 </symbol>
 <symbol name="KPG-0603CGC-TT">
 <wire x1="2.54" y1="0" x2="5.08" y2="1.524" width="0.254" layer="94"/>
@@ -1191,19 +1172,108 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <pin name="1" x="-5.08" y="0" visible="off" length="short"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
 </symbol>
+<symbol name="STBCFG01JR">
+<wire x1="-12.7" y1="15.24" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="15.24" y2="15.24" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-20.32" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="15.24" x2="-12.7" y2="-20.32" width="0.254" layer="94"/>
+<text x="16.51" y="20.32" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="17.78" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="PMID_1" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="DCIN_1" x="-17.78" y="-2.54" length="middle" direction="in"/>
+<pin name="DCIN_2" x="-17.78" y="-5.08" length="middle" direction="in"/>
+<pin name="AGND" x="20.32" y="-15.24" length="middle" direction="pwr" rot="R180"/>
+<pin name="VCELL-" x="-17.78" y="-7.62" length="middle"/>
+<pin name="PMID_2" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="CEN_N" x="-17.78" y="5.08" length="middle"/>
+<pin name="SHDN" x="-17.78" y="7.62" length="middle"/>
+<pin name="RID" x="-17.78" y="-10.16" length="middle"/>
+<pin name="VCELL+" x="-17.78" y="-12.7" length="middle"/>
+<pin name="LX_1" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="IRQN" x="-17.78" y="2.54" length="middle"/>
+<pin name="DGND" x="20.32" y="-17.78" length="middle" direction="pwr" rot="R180"/>
+<pin name="1V8" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="VREF" x="20.32" y="10.16" length="middle" direction="in" rot="R180"/>
+<pin name="LX_2" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="LDO" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="SDA" x="-17.78" y="12.7" length="middle"/>
+<pin name="SCL" x="-17.78" y="10.16" length="middle"/>
+<pin name="R_SNS_N_1" x="-17.78" y="-15.24" length="middle"/>
+<pin name="PGND_1" x="20.32" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="PGND_2" x="20.32" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="R_SNS_P_1" x="20.32" y="-5.08" length="middle" rot="R180"/>
+<pin name="R_SNS_P_2" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="R_SNS_N_2" x="-17.78" y="-17.78" length="middle"/>
+</symbol>
+<symbol name="L_EMI">
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="0" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.254" layer="94" curve="-175.4"/>
+<text x="-2.54" y="2.54" size="1.778" layer="95" rot="R90" align="center-left">&gt;NAME</text>
+<text x="2.54" y="2.54" size="1.778" layer="96" rot="R90" align="center-left">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.778" x2="-2.54" y2="1.778" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.778" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="TVS_DIODE_B">
+<wire x1="2.54" y1="0" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="5.08" y2="1.524" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.524" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="0.508" y="-3.302" size="1.27" layer="95">&gt;NAME</text>
+<text x="0.508" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="K" x="-2.54" y="0" visible="off" length="short"/>
+<pin name="A" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="0" y1="-1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.794" y2="1.524" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.286" y2="-1.524" width="0.254" layer="94"/>
+</symbol>
+<symbol name="L_EMI_DUAL">
+<pin name="1" x="-5.08" y="2.54" visible="off" length="short"/>
+<pin name="2" x="-5.08" y="-2.54" visible="off" length="short"/>
+<pin name="3" x="5.08" y="-2.54" visible="off" length="short" rot="R180"/>
+<pin name="4" x="5.08" y="2.54" visible="off" length="short" rot="R180"/>
+<wire x1="2.54" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="-1.27" y1="2.54" x2="-2.54" y2="2.54" width="0.254" layer="94" curve="-175.4"/>
+<text x="-2.54" y="5.08" size="1.778" layer="95" rot="R90" align="center-left">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.778" layer="96" rot="R90" align="center-left">&gt;VALUE</text>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94" curve="-175.4"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+</symbol>
+<symbol name="AGND">
+<wire x1="-1.27" y1="-0.762" x2="1.27" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="-1.524" x2="0.635" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<text x="-4.445" y="-4.699" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="PE" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="DGND">
+<wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<text x="-1.905" y="-3.175" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="STM32L476XX">
-<gates>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="USBLC6-2" prefix="U">
 <gates>
 <gate name="A" symbol="USBLC6-2" x="0" y="2.54"/>
@@ -1217,27 +1287,6 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <connect gate="A" pin="O1" pad="6"/>
 <connect gate="A" pin="O2" pad="4"/>
 <connect gate="A" pin="VBUS" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="USB">
-<gates>
-<gate name="G$1" symbol="USB" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB-MICRO-DUMMY">
-<connects>
-<connect gate="G$1" pin="D+" pad="3"/>
-<connect gate="G$1" pin="D-" pad="2"/>
-<connect gate="G$1" pin="GND" pad="5"/>
-<connect gate="G$1" pin="ID" pad="4"/>
-<connect gate="G$1" pin="SH1" pad="6"/>
-<connect gate="G$1" pin="SH2" pad="7"/>
-<connect gate="G$1" pin="VCC" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1355,12 +1404,12 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="RESISTOR" prefix="R" uservalue="yes">
+<deviceset name="R" prefix="R" uservalue="yes">
 <gates>
 <gate name="R1" symbol="R" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAPC0603X30">
+<device name="" package="0201_X30">
 <connects>
 <connect gate="R1" pin="1" pad="1"/>
 <connect gate="R1" pin="2" pad="2"/>
@@ -1374,7 +1423,7 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="MP34DT05-A" prefix="U">
+<deviceset name="MP34DT05-A" prefix="MIC">
 <gates>
 <gate name="A" symbol="MIC" x="0" y="0"/>
 </gates>
@@ -1430,12 +1479,12 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAP" prefix="C" uservalue="yes">
+<deviceset name="C_NP" prefix="C" uservalue="yes">
 <gates>
 <gate name="A" symbol="CAP" x="2.54" y="-2.54"/>
 </gates>
 <devices>
-<device name="0603" package="CAPC0603X30">
+<device name="0603" package="0201_X30">
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
@@ -1548,7 +1597,7 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABS06-107" prefix="Y" uservalue="yes">
+<deviceset name="ABS06-107" prefix="X" uservalue="yes">
 <description>ABS06-107-32.768KHZ-T</description>
 <gates>
 <gate name="A" symbol="CRISTAL-2P" x="0" y="0"/>
@@ -1599,60 +1648,7 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="CAS-220TA" prefix="S">
-<description>&lt;b&gt;Dip Switch SPDTSurface Mount Slide Switch&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAS-220TA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="CAS-220A1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="CAS-220TA" constant="no"/>
-<attribute name="ARROW_PRICE/STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Dip Switch SPDTSurface Mount Slide Switch" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Copal Electronics" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="CAS-220TA" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PRICE/STOCK" value="" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SW_DPDT" prefix="S">
-<description>&lt;b&gt;Dip Switch SPDTSurface Mount Slide Switch&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="http://www.nidec-copal-electronics.com/e/catalog/switch/cas.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAS-220TA" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_DPDT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MICRO-USB-RECEPTACLE">
+<deviceset name="MICRO-USB-RECEPTACLE" prefix="J">
 <description>&lt;b&gt;MICRO USB RECEPTACLES&lt;/b&gt;&lt;br/&gt;
 &lt;i&gt;Micro-USB Receptacles, SMT, Lead-Free&lt;/i&gt;&lt;br/&gt;
 from &lt;a href="http://www.molex.com/"&gt;MOLEX&lt;/a&gt;.&lt;br/&gt;
@@ -1689,7 +1685,7 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 </device>
 </devices>
 </deviceset>
-<deviceset name="STG3692QTR" prefix="IC">
+<deviceset name="STG3692QTR" prefix="U">
 <description>&lt;b&gt;STMICROELECTRONICS - STG3692QTR - ANALOGUE SWITCH, 4CH, SPDT, QFN-16&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/datasheet/e4/e6/5c/d9/e0/d4/44/7f/CD00134165.pdf/files/CD00134165.pdf/jcr:content/translations/en.CD00134165.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1731,7 +1727,7 @@ Source: &lt;a href="http://www.st.com/content/ccc/resource/technical/document/da
 </device>
 </devices>
 </deviceset>
-<deviceset name="STG3693QTR" prefix="IC">
+<deviceset name="STG3693QTR" prefix="U">
 <description>&lt;b&gt;STMICROELECTRONICS - STG3692QTR - ANALOGUE SWITCH, 4CH, SPDT, QFN-16&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.st.com/resource/en/datasheet/stg3693.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1755,7 +1751,6 @@ Source: &lt;a href="https://www.st.com/resource/en/datasheet/stg3693.pdf"&gt; Da
 <connect gate="G$1" pin="D3" pad="8"/>
 <connect gate="G$1" pin="D4" pad="13"/>
 <connect gate="G$1" pin="GND" pad="11"/>
-<connect gate="G$1" pin="THERMAL_PAD" pad="17"/>
 <connect gate="G$1" pin="VCC" pad="2"/>
 </connects>
 <technologies>
@@ -1800,7 +1795,7 @@ Source: &lt;a href="https://kingbright-europe.de/wp-content/uploads/2015/02/KPG-
 </device>
 </devices>
 </deviceset>
-<deviceset name="3PIN" uservalue="yes">
+<deviceset name="3PIN" prefix="J" uservalue="yes">
 <gates>
 <gate name="G$1" symbol="3PINCON" x="0" y="0"/>
 </gates>
@@ -1817,7 +1812,7 @@ Source: &lt;a href="https://kingbright-europe.de/wp-content/uploads/2015/02/KPG-
 </device>
 </devices>
 </deviceset>
-<deviceset name="ABM11W-101" uservalue="yes">
+<deviceset name="ABM11W-101" prefix="X" uservalue="yes">
 <description>ABM11W-101-32.0000MHZ-T3</description>
 <gates>
 <gate name="G$1" symbol="CRISTAL-4P" x="0" y="0"/>
@@ -1843,7 +1838,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LQP03TG0N6B02
 <gate name="G$1" symbol="L" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="CAPC0603X30">
+<device name="" package="0201_X30">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1851,6 +1846,161 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/LQP03TG0N6B02
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:3714360/1"/>
 </package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="STBCFG01JR" prefix="U">
+<description>&lt;b&gt;Switch-mode Single Cell Li+ Battery Charger with OTG Boost&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00121014.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="STBCFG01JR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="BGA25C40P5X5_219X228X60">
+<connects>
+<connect gate="G$1" pin="1V8" pad="C4"/>
+<connect gate="G$1" pin="AGND" pad="A4"/>
+<connect gate="G$1" pin="CEN_N" pad="B2"/>
+<connect gate="G$1" pin="DCIN_1" pad="A2"/>
+<connect gate="G$1" pin="DCIN_2" pad="A3"/>
+<connect gate="G$1" pin="DGND" pad="C3"/>
+<connect gate="G$1" pin="IRQN" pad="C2"/>
+<connect gate="G$1" pin="LDO" pad="D2"/>
+<connect gate="G$1" pin="LX_1" pad="C1"/>
+<connect gate="G$1" pin="LX_2" pad="D1"/>
+<connect gate="G$1" pin="PGND_1" pad="E1"/>
+<connect gate="G$1" pin="PGND_2" pad="E2"/>
+<connect gate="G$1" pin="PMID_1" pad="A1"/>
+<connect gate="G$1" pin="PMID_2" pad="B1"/>
+<connect gate="G$1" pin="RID" pad="B4"/>
+<connect gate="G$1" pin="R_SNS_N_1" pad="D5"/>
+<connect gate="G$1" pin="R_SNS_N_2" pad="E5"/>
+<connect gate="G$1" pin="R_SNS_P_1" pad="E3"/>
+<connect gate="G$1" pin="R_SNS_P_2" pad="E4"/>
+<connect gate="G$1" pin="SCL" pad="D4"/>
+<connect gate="G$1" pin="SDA" pad="D3"/>
+<connect gate="G$1" pin="SHDN" pad="B3"/>
+<connect gate="G$1" pin="VCELL+" pad="B5"/>
+<connect gate="G$1" pin="VCELL-" pad="A5"/>
+<connect gate="G$1" pin="VREF" pad="C5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="STBCFG01JR" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/stbcfg01jr/stmicroelectronics" constant="no"/>
+<attribute name="DESCRIPTION" value="Switch-mode Single Cell Li+ Battery Charger with OTG Boost" constant="no"/>
+<attribute name="HEIGHT" value="0.605mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="STBCFG01JR" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L_EMI" prefix="L" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="L_EMI" x="0" y="0"/>
+</gates>
+<devices>
+<device name="0201" package="0201_X30">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3714360/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:23626/2"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TVS_DIODE_B" prefix="D" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="TVS_DIODE_B" x="-2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="0201_X30">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="K" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:3714360/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCZ0806AH" prefix="L">
+<description>&lt;b&gt;Common Mode Chokes / Filters 0504 90ohms 2 Lines HDMI, DVI, USB3.0&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://product.tdk.com/info/en/catalog/datasheets/cmf_commercial_signal_mcz1210dh_en.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="L_EMI_DUAL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0302">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
+<attribute name="DESCRIPTION" value="Common Mode Chokes / Filters 025020 90ohms 2 Lines" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Murata" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NFP0QSN112HL2D" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="AGND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="PE" symbol="AGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DGND" prefix="SUPPLY">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="GND" symbol="DGND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
 <technologies>
 <technology name=""/>
 </technologies>
