@@ -746,31 +746,31 @@
 <package name="ABS06-107">
 <description>CHIP, 2.2352 X 1.5985 X 0.7 mm body
 &lt;p&gt;CHIP package with body size 2.2352 X 1.5985 X 0.7 mm&lt;/p&gt;</description>
-<wire x1="1.1176" y1="0.9676" x2="-1.1176" y2="0.9676" width="0.12" layer="21"/>
-<wire x1="1.1176" y1="-0.9676" x2="-1.1176" y2="-0.9676" width="0.12" layer="21"/>
-<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.12" layer="51"/>
-<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.12" layer="51"/>
-<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.12" layer="51"/>
-<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.12" layer="51"/>
+<wire x1="1.1176" y1="0.9676" x2="-1.1176" y2="0.9676" width="0.12" layer="51"/>
+<wire x1="1.1176" y1="-0.9676" x2="-1.1176" y2="-0.9676" width="0.12" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.12" layer="21"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.12" layer="21"/>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.12" layer="21"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.12" layer="21"/>
 <smd name="1" x="-0.725" y="0" dx="0.75" dy="1.4" layer="1"/>
 <smd name="2" x="0.725" y="0" dx="0.75" dy="1.4" layer="1"/>
 <text x="0" y="1.0946" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-1.0946" size="0.4064" layer="27" align="top-center">&gt;VALUE</text>
 </package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1">
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="21"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="21"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="51"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="51"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="51"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="51"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="21"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="0201_X30" urn="urn:adsk.eagle:footprint:3714368/1" locally_modified="yes">
@@ -861,19 +861,19 @@
 <smd name="J7" x="0.8" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
 <smd name="J8" x="1.2" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
 <smd name="J9" x="1.6" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
-<wire x1="-2.2098" y1="0" x2="-2.4638" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.2098" y1="0" x2="2.4638" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="2.0066" x2="-2.3368" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-2.0066" x2="2.3368" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.3368" y1="-2.0066" x2="-1.778" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="2.3368" y1="-2.0066" x2="2.3368" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="2.3368" y1="2.0066" x2="1.778" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.3368" y1="2.0066" x2="-2.3368" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.0066" y1="1.8796" x2="-2.2098" y2="1.6764" width="0.1524" layer="51"/>
-<wire x1="-2.2098" y1="-1.8796" x2="2.2098" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="2.2098" y1="-1.8796" x2="2.2098" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="2.2098" y1="1.8796" x2="-2.2098" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="-2.2098" y1="1.8796" x2="-2.2098" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-2.2098" y1="0" x2="-2.4638" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.2098" y1="0" x2="2.4638" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="2.0066" x2="-2.3368" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.0066" x2="2.3368" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.3368" y1="-2.0066" x2="-1.778" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="2.3368" y1="-2.0066" x2="2.3368" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="2.3368" y1="2.0066" x2="1.778" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.3368" y1="2.0066" x2="-2.3368" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="1.8796" x2="-2.2098" y2="1.6764" width="0.1524" layer="25"/>
+<wire x1="-2.2098" y1="-1.8796" x2="2.2098" y2="-1.8796" width="0.1524" layer="21"/>
+<wire x1="2.2098" y1="-1.8796" x2="2.2098" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="2.2098" y1="1.8796" x2="-2.2098" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="-2.2098" y1="1.8796" x2="-2.2098" y2="-1.8796" width="0.1524" layer="21"/>
 <text x="-1.2446" y="-2.54" size="0.4064" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="MIC-PACK">
@@ -917,30 +917,27 @@ Following devices are included:&lt;br/&gt;
 Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="http://www.molex.com/pdm_docs/sd/475890001_sd.pdf"&gt;Technical Drawing&lt;/a&gt;).
 &lt;br/&gt;</description>
 <wire x1="-1.45" y1="4" x2="-1.45" y2="-4" width="0.05" layer="51" style="shortdash"/>
-<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="21"/>
-<wire x1="2.85" y1="3.75" x2="2.85" y2="-3.75" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.2" width="0.05" layer="21"/>
+<wire x1="2.85" y1="3.75" x2="2.85" y2="2.5" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="1.95" x2="2.85" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-1.95" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-2.5" x2="2.85" y2="-3.75" width="0.05" layer="21"/>
 <wire x1="2.85" y1="-3.75" x2="-2.15" y2="-3.75" width="0.05" layer="21"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="3.75" width="0.05" layer="21"/>
-<wire x1="2.85" y1="3.75" x2="2.85" y2="2.5" width="0.05" layer="51"/>
-<wire x1="2.85" y1="2.5" x2="2.85" y2="1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="1.95" x2="2.85" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-1.95" x2="2.85" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-2.5" x2="2.85" y2="-3.75" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-3.75" x2="-2.15" y2="-3.75" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="-3.2" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.2" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.2" x2="-2.15" y2="3.75" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="51"/>
-<wire x1="2.85" y1="2.5" x2="3.05" y2="2.5" width="0.05" layer="51"/>
-<wire x1="3.05" y1="2.5" x2="3.05" y2="1.95" width="0.05" layer="51"/>
-<wire x1="3.05" y1="1.95" x2="2.85" y2="1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-1.95" x2="3.05" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="3.05" y1="-1.95" x2="3.05" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="3.05" y1="-2.5" x2="2.85" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.75" y2="-4.1" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.75" x2="-2.75" y2="4.1" width="0.05" layer="51"/>
-<wire x1="-2.75" y1="3.2" x2="-2.75" y2="-3.2" width="0.05" layer="51"/>
-<wire x1="-2.75" y1="-3.2" x2="-2.15" y2="-3.2" width="0.05" layer="51"/>
+<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="-3.2" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.75" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="3.05" y2="2.5" width="0.05" layer="21"/>
+<wire x1="3.05" y1="2.5" x2="3.05" y2="1.95" width="0.05" layer="21"/>
+<wire x1="3.05" y1="1.95" x2="2.85" y2="1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-1.95" x2="3.05" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="3.05" y1="-1.95" x2="3.05" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="3.05" y1="-2.5" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.75" x2="-2.75" y2="-4.1" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="3.75" x2="-2.75" y2="4.1" width="0.05" layer="21"/>
+<wire x1="-2.75" y1="3.2" x2="-2.75" y2="-3.2" width="0.05" layer="21"/>
+<wire x1="-2.75" y1="-3.2" x2="-2.15" y2="-3.2" width="0.05" layer="21"/>
 <wire x1="-2.75" y1="3.2" x2="-2.15" y2="3.2" width="0.05" layer="51"/>
 <wire x1="-0.65" y1="3.875" x2="-0.65" y2="4.475" width="0" layer="46"/>
 <wire x1="-0.65" y1="4.475" x2="0.65" y2="4.475" width="0" layer="46"/>
@@ -984,8 +981,8 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="-0.4" y1="0.4" x2="0.4" y2="0.4" width="0.05" layer="21"/>
 <wire x1="0.4" y1="0.4" x2="0.4" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="0.4" y1="-0.4" x2="-0.4" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="-0.4" y1="-0.4" x2="-0.4" y2="0.4" width="0.05" layer="22"/>
-<circle x="-0.508" y="0.508" radius="0.05" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-0.4" x2="-0.4" y2="0.4" width="0.05" layer="21"/>
+<circle x="-0.508" y="0.508" radius="0.05" width="0.1" layer="25"/>
 </package>
 <package name="0.65X0.35X0.2MM(0201)SMDCHIPLE">
 <description>&lt;b&gt;0.65X0.35X0.2MM(0201)SMDCHIPLEDLAMP_1&lt;/b&gt;&lt;br&gt;
@@ -994,10 +991,10 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="2" x="0.2" y="0" dx="0.35" dy="0.2" layer="1" rot="R90"/>
 <text x="-0.074" y="0.571" size="0.4064" layer="27" align="center">&gt;VALUE</text>
 <text x="-0.053" y="-0.571" size="0.4064" layer="25" rot="R180" align="center">&gt;NAME</text>
-<wire x1="-0.325" y1="0.175" x2="0.325" y2="0.175" width="0.2" layer="51"/>
-<wire x1="0.325" y1="0.175" x2="0.325" y2="-0.175" width="0.2" layer="51"/>
-<wire x1="0.325" y1="-0.175" x2="-0.325" y2="-0.175" width="0.2" layer="51"/>
-<wire x1="-0.325" y1="-0.175" x2="-0.325" y2="0.175" width="0.2" layer="51"/>
+<wire x1="-0.325" y1="0.175" x2="0.325" y2="0.175" width="0.12" layer="21"/>
+<wire x1="0.325" y1="0.175" x2="0.325" y2="-0.175" width="0.12" layer="21"/>
+<wire x1="0.325" y1="-0.175" x2="-0.325" y2="-0.175" width="0.12" layer="21"/>
+<wire x1="-0.325" y1="-0.175" x2="-0.325" y2="0.175" width="0.12" layer="21"/>
 </package>
 <package name="BGA25C40P5X5_219X228X60">
 <description>&lt;b&gt;Flip Chip 25 (2.3 x 2.2 mm)&lt;/b&gt;&lt;br&gt;
@@ -1033,17 +1030,17 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="2.11" y1="2.155" x2="2.11" y2="-2.155" width="0.05" layer="51"/>
 <wire x1="2.11" y1="-2.155" x2="-2.11" y2="-2.155" width="0.05" layer="51"/>
 <wire x1="-2.11" y1="-2.155" x2="-2.11" y2="2.155" width="0.05" layer="51"/>
-<wire x1="-1.095" y1="1.14" x2="1.095" y2="1.14" width="0.1" layer="51"/>
-<wire x1="1.095" y1="1.14" x2="1.095" y2="-1.14" width="0.1" layer="51"/>
-<wire x1="1.095" y1="-1.14" x2="-1.095" y2="-1.14" width="0.1" layer="51"/>
-<wire x1="-1.095" y1="-1.14" x2="-1.095" y2="1.14" width="0.1" layer="51"/>
+<wire x1="-1.095" y1="1.14" x2="1.095" y2="1.14" width="0.1" layer="21"/>
+<wire x1="1.095" y1="1.14" x2="1.095" y2="-1.14" width="0.1" layer="21"/>
+<wire x1="1.095" y1="-1.14" x2="-1.095" y2="-1.14" width="0.1" layer="21"/>
+<wire x1="-1.095" y1="-1.14" x2="-1.095" y2="1.14" width="0.1" layer="21"/>
 <wire x1="-1.095" y1="0.562" x2="-0.517" y2="1.14" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="1.254" x2="1.254" y2="1.254" width="0.2" layer="21"/>
-<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.2" layer="21"/>
-<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.2" layer="21"/>
-<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-1.254" y1="0.8" x2="-0.8" y2="1.254" width="0.2" layer="21"/>
-<circle x="-1.254" y="1.254" radius="0.1" width="0.2" layer="25"/>
+<wire x1="-0.8" y1="1.254" x2="1.254" y2="1.254" width="0.12" layer="51"/>
+<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.12" layer="51"/>
+<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.12" layer="51"/>
+<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="0.8" width="0.12" layer="51"/>
+<wire x1="-1.254" y1="0.8" x2="-0.8" y2="1.254" width="0.12" layer="51"/>
+<circle x="-1.254" y="1.254" radius="0.0508" width="0.2" layer="25"/>
 </package>
 <package name="QFN40P180X260X55-17N">
 <description>&lt;b&gt;QFN16L 2.6x1.8&lt;/b&gt;&lt;br&gt;
@@ -1071,10 +1068,10 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="1.525" y1="1.925" x2="1.525" y2="-1.925" width="0.05" layer="51"/>
 <wire x1="1.525" y1="-1.925" x2="-1.525" y2="-1.925" width="0.05" layer="51"/>
 <wire x1="-1.525" y1="-1.925" x2="-1.525" y2="1.925" width="0.05" layer="51"/>
-<wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.1" layer="51"/>
-<wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.1" layer="21"/>
+<wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.1" layer="21"/>
 <wire x1="-0.9" y1="0.9" x2="-0.5" y2="1.3" width="0.1" layer="51"/>
 <circle x="-1.3" y="1.2" radius="0.1" width="0.2" layer="25"/>
 </package>
@@ -1087,16 +1084,16 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="4" x="-0.25" y="0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
 <text x="0" y="-1.229" size="0.6096" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="1.184" size="0.6096" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.425" y1="0.325" x2="0.425" y2="0.325" width="0.2" layer="51"/>
-<wire x1="0.425" y1="0.325" x2="0.425" y2="-0.325" width="0.2" layer="51"/>
-<wire x1="0.425" y1="-0.325" x2="-0.425" y2="-0.325" width="0.2" layer="51"/>
-<wire x1="-0.425" y1="-0.325" x2="-0.425" y2="0.325" width="0.2" layer="51"/>
+<wire x1="-0.425" y1="0.325" x2="0.425" y2="0.325" width="0.12" layer="21"/>
+<wire x1="0.425" y1="0.325" x2="0.425" y2="-0.325" width="0.12" layer="21"/>
+<wire x1="0.425" y1="-0.325" x2="-0.425" y2="-0.325" width="0.12" layer="21"/>
+<wire x1="-0.425" y1="-0.325" x2="-0.425" y2="0.325" width="0.12" layer="21"/>
 <wire x1="-0.873" y1="0.75" x2="0.873" y2="0.75" width="0.1" layer="51"/>
 <wire x1="0.873" y1="0.75" x2="0.873" y2="-0.794" width="0.1" layer="51"/>
 <wire x1="0.873" y1="-0.794" x2="-0.873" y2="-0.794" width="0.1" layer="51"/>
 <wire x1="-0.873" y1="-0.794" x2="-0.873" y2="0.75" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="-0.246" x2="0.3" y2="-0.246" width="0.1" layer="21"/>
-<wire x1="-0.3" y1="0.246" x2="0.3" y2="0.246" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="-0.246" x2="0.3" y2="-0.246" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.246" x2="0.3" y2="0.246" width="0.1" layer="51"/>
 </package>
 <package name="MBN52832">
 <description>&lt;b&gt;MBN52832-1&lt;/b&gt;&lt;br&gt;
@@ -1138,8 +1135,8 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="35" x="1" y="-1.8" dx="0.6" dy="0.3" layer="1"/>
 <smd name="36" x="-2.898" y="3.15" dx="0.6" dy="0.3" layer="1"/>
 <smd name="37" x="2.9" y="3.15" dx="0.6" dy="0.3" layer="1"/>
-<text x="0" y="-0.225" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-0.225" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="6.633" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="5.109" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-3.5" y1="3.7" x2="3.5" y2="3.7" width="0.2" layer="51"/>
 <wire x1="3.5" y1="3.7" x2="3.5" y2="-3.7" width="0.2" layer="51"/>
 <wire x1="3.5" y1="-3.7" x2="-3.5" y2="-3.7" width="0.2" layer="51"/>
@@ -1152,45 +1149,32 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="4.2" y1="4.4" x2="4.2" y2="-4.85" width="0.1" layer="51"/>
 <wire x1="4.2" y1="-4.85" x2="-4.2" y2="-4.85" width="0.1" layer="51"/>
 <wire x1="-4.2" y1="-4.85" x2="-4.2" y2="4.4" width="0.1" layer="51"/>
-<wire x1="-2" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="21"/>
-<wire x1="-2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="21" curve="-180"/>
-<wire x1="-1.9" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="21"/>
-<wire x1="-1.9" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="21" curve="-180"/>
+<wire x1="-2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="25" curve="-180"/>
+<wire x1="-1.9" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="25" curve="-180"/>
 </package>
-<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1">
+<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1" locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1005</description>
-<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
-<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="21"/>
+<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="21"/>
 <smd name="1" x="-0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
 <smd name="2" x="0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
 <text x="-0.5" y="0.425" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.5" y="-1.45" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
-<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="21"/>
+<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
 </package>
-<package name="C0201" urn="urn:adsk.eagle:footprint:23196/1">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
-<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
-<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="51"/>
-<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="51"/>
-<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="51"/>
-</package>
-<package name="C0603K" urn="urn:adsk.eagle:footprint:23187/1">
+<package name="C0603K" urn="urn:adsk.eagle:footprint:23187/1" locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1608</description>
-<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
-<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="21"/>
+<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="21"/>
 <smd name="1" x="-0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
 <text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
-<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="21"/>
+<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="21"/>
 </package>
 <package name="SOD-523">
 <description>&lt;b&gt;SOD-523 CASE 502&lt;/b&gt;&lt;br&gt;
@@ -1203,31 +1187,40 @@ Metric Code Size 1608</description>
 <wire x1="1.22" y1="0.6" x2="1.22" y2="-0.6" width="0.05" layer="51"/>
 <wire x1="1.22" y1="-0.6" x2="-1.22" y2="-0.6" width="0.05" layer="51"/>
 <wire x1="-1.22" y1="-0.6" x2="-1.22" y2="0.6" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="0.08" x2="-0.28" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.1" layer="21"/>
+<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="0.08" x2="-0.28" y2="0.4" width="0.1" layer="25"/>
+</package>
+<package name="C0201" urn="urn:adsk.eagle:footprint:23196/1" locally_modified="yes">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<smd name="1" x="-0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<smd name="2" x="0.25" y="0" dx="0.25" dy="0.35" layer="1"/>
+<text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.3" y1="-0.15" x2="-0.15" y2="0.15" layer="21"/>
+<rectangle x1="0.15" y1="-0.15" x2="0.3" y2="0.15" layer="21"/>
+<rectangle x1="-0.15" y1="0.1" x2="0.15" y2="0.15" layer="21"/>
+<rectangle x1="-0.15" y1="-0.15" x2="0.15" y2="-0.1" layer="21"/>
 </package>
 <package name="SOD-80">
 <description>&lt;b&gt;MiniMELF Glass Case (SOD-80)&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-1.875" y="0" dx="2" dy="1.25" layer="1" rot="R90"/>
 <smd name="2" x="1.875" y="0" dx="2" dy="1.25" layer="1" rot="R90"/>
-<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-1.75" y1="-0.75" x2="1.75" y2="-0.75" width="0.1" layer="51"/>
-<wire x1="1.75" y1="-0.75" x2="1.75" y2="0.75" width="0.1" layer="51"/>
-<wire x1="1.75" y1="0.75" x2="-1.75" y2="0.75" width="0.1" layer="51"/>
-<wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.1" layer="51"/>
-<wire x1="-0.75" y1="0.75" x2="0.75" y2="0.75" width="0.2" layer="21"/>
-<wire x1="-0.75" y1="-0.75" x2="0.75" y2="-0.75" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.1" layer="51"/>
+<text x="0" y="-1.905" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="1.905" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.75" y1="-0.75" x2="1.75" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="1.75" y1="-0.75" x2="1.75" y2="0.75" width="0.1" layer="21"/>
+<wire x1="1.75" y1="0.75" x2="-1.75" y2="0.75" width="0.1" layer="21"/>
+<wire x1="-1.75" y1="0.75" x2="-1.75" y2="-0.75" width="0.1" layer="21"/>
+<wire x1="-1.5" y1="0.75" x2="-1.5" y2="-0.75" width="0.1" layer="21"/>
 <circle x="-3" y="0" radius="0.125" width="0.25" layer="25"/>
 </package>
 </packages>
 <packages3d>
-<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model">
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" locally_modified="yes" type="model">
 <description>Chip, 1.00 X 0.50 X 0.60 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
@@ -1241,24 +1234,24 @@ Metric Code Size 1608</description>
 <packageinstance name="0201_X30"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" type="model">
+<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" locally_modified="yes" type="model">
 <description>Ceramic Chip Capacitor KEMET 0204 reflow solder
 Metric Code Size 1005</description>
 <packageinstances>
 <packageinstance name="C0402K"/>
 </packageinstances>
 </package3d>
-<package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" type="model">
-<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
-<packageinstances>
-<packageinstance name="C0201"/>
-</packageinstances>
-</package3d>
-<package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model">
+<package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" locally_modified="yes" type="model">
 <description>Ceramic Chip Capacitor KEMET 0603 reflow solder
 Metric Code Size 1608</description>
 <packageinstances>
 <packageinstance name="C0603K"/>
+</packageinstances>
+</package3d>
+<package3d name="C0201" urn="urn:adsk.eagle:package:23690/2" locally_modified="yes" type="model">
+<description>Source: http://www.avxcorp.com/docs/catalogs/cx5r.pdf</description>
+<packageinstances>
+<packageinstance name="C0201"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2827,13 +2820,6 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <pinref part="R6" gate="R1" pin="2"/>
 <wire x1="-55.88" y1="-50.8" x2="-55.88" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="U1" gate="A" pin="PB1"/>
-<wire x1="78.74" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
-<label x="157.48" y="20.32" size="1.778" layer="95"/>
-<pinref part="R9" gate="R1" pin="2"/>
-<wire x1="177.8" y1="30.48" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
-</segment>
 </net>
 <net name="IRQ_BAT" class="0">
 <segment>
@@ -3006,6 +2992,15 @@ Source: &lt;a href=""&gt; Datasheet &lt;/a&gt;</description>
 <wire x1="-93.98" y1="2.54" x2="-93.98" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="-93.98" y1="5.08" x2="-104.14" y2="5.08" width="0.1524" layer="91"/>
 <label x="-104.14" y="5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="SEL_STM_BLU" class="0">
+<segment>
+<pinref part="U1" gate="A" pin="PB1"/>
+<wire x1="78.74" y1="20.32" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
+<label x="157.48" y="20.32" size="1.778" layer="95"/>
+<pinref part="R9" gate="R1" pin="2"/>
+<wire x1="177.8" y1="30.48" x2="177.8" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

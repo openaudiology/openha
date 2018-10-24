@@ -10,7 +10,7 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
 <layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
 <layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
@@ -22,7 +22,7 @@
 <layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
-<layer number="15" name="Route15" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
@@ -202,30 +202,27 @@ Following devices are included:&lt;br/&gt;
 Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="http://www.molex.com/pdm_docs/sd/475890001_sd.pdf"&gt;Technical Drawing&lt;/a&gt;).
 &lt;br/&gt;</description>
 <wire x1="-1.45" y1="4" x2="-1.45" y2="-4" width="0.05" layer="51" style="shortdash"/>
-<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="21"/>
-<wire x1="2.85" y1="3.75" x2="2.85" y2="-3.75" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.2" width="0.05" layer="21"/>
+<wire x1="2.85" y1="3.75" x2="2.85" y2="2.5" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="2.85" y2="1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="1.95" x2="2.85" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-1.95" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-2.5" x2="2.85" y2="-3.75" width="0.05" layer="21"/>
 <wire x1="2.85" y1="-3.75" x2="-2.15" y2="-3.75" width="0.05" layer="21"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="3.75" width="0.05" layer="21"/>
-<wire x1="2.85" y1="3.75" x2="2.85" y2="2.5" width="0.05" layer="51"/>
-<wire x1="2.85" y1="2.5" x2="2.85" y2="1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="1.95" x2="2.85" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-1.95" x2="2.85" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-2.5" x2="2.85" y2="-3.75" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-3.75" x2="-2.15" y2="-3.75" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="-3.2" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.2" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.2" x2="-2.15" y2="3.75" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="51"/>
-<wire x1="2.85" y1="2.5" x2="3.05" y2="2.5" width="0.05" layer="51"/>
-<wire x1="3.05" y1="2.5" x2="3.05" y2="1.95" width="0.05" layer="51"/>
-<wire x1="3.05" y1="1.95" x2="2.85" y2="1.95" width="0.05" layer="51"/>
-<wire x1="2.85" y1="-1.95" x2="3.05" y2="-1.95" width="0.05" layer="51"/>
-<wire x1="3.05" y1="-1.95" x2="3.05" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="3.05" y1="-2.5" x2="2.85" y2="-2.5" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="-3.75" x2="-2.75" y2="-4.1" width="0.05" layer="51"/>
-<wire x1="-2.15" y1="3.75" x2="-2.75" y2="4.1" width="0.05" layer="51"/>
-<wire x1="-2.75" y1="3.2" x2="-2.75" y2="-3.2" width="0.05" layer="51"/>
-<wire x1="-2.75" y1="-3.2" x2="-2.15" y2="-3.2" width="0.05" layer="51"/>
+<wire x1="-2.15" y1="-3.75" x2="-2.15" y2="-3.2" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.2" x2="-2.15" y2="3.75" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="3.75" x2="2.85" y2="3.75" width="0.05" layer="21"/>
+<wire x1="2.85" y1="2.5" x2="3.05" y2="2.5" width="0.05" layer="21"/>
+<wire x1="3.05" y1="2.5" x2="3.05" y2="1.95" width="0.05" layer="21"/>
+<wire x1="3.05" y1="1.95" x2="2.85" y2="1.95" width="0.05" layer="21"/>
+<wire x1="2.85" y1="-1.95" x2="3.05" y2="-1.95" width="0.05" layer="21"/>
+<wire x1="3.05" y1="-1.95" x2="3.05" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="3.05" y1="-2.5" x2="2.85" y2="-2.5" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="-3.75" x2="-2.75" y2="-4.1" width="0.05" layer="21"/>
+<wire x1="-2.15" y1="3.75" x2="-2.75" y2="4.1" width="0.05" layer="21"/>
+<wire x1="-2.75" y1="3.2" x2="-2.75" y2="-3.2" width="0.05" layer="21"/>
+<wire x1="-2.75" y1="-3.2" x2="-2.15" y2="-3.2" width="0.05" layer="21"/>
 <wire x1="-2.75" y1="3.2" x2="-2.15" y2="3.2" width="0.05" layer="51"/>
 <wire x1="-0.65" y1="3.875" x2="-0.65" y2="4.475" width="0" layer="46"/>
 <wire x1="-0.65" y1="4.475" x2="0.65" y2="4.475" width="0" layer="46"/>
@@ -261,20 +258,20 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="CASING7" x="0" y="-1.15" dx="1.9" dy="1.8" layer="1"/>
 <smd name="CASING8" x="0" y="-3.3875" dx="1.9" dy="1.575" layer="1"/>
 </package>
-<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1">
+<package name="C0402" urn="urn:adsk.eagle:footprint:23121/1" locally_modified="yes">
 <description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
-<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
-<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="51"/>
-<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="39"/>
-<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="39"/>
+<wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="21"/>
+<wire x1="0.245" y1="-0.224" x2="-0.245" y2="-0.224" width="0.1524" layer="21"/>
+<wire x1="-1.473" y1="0.483" x2="1.473" y2="0.483" width="0.0508" layer="51"/>
+<wire x1="1.473" y1="0.483" x2="1.473" y2="-0.483" width="0.0508" layer="51"/>
+<wire x1="1.473" y1="-0.483" x2="-1.473" y2="-0.483" width="0.0508" layer="51"/>
+<wire x1="-1.473" y1="-0.483" x2="-1.473" y2="0.483" width="0.0508" layer="51"/>
 <smd name="1" x="-0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <smd name="2" x="0.65" y="0" dx="0.7" dy="0.9" layer="1"/>
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="51"/>
-<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="51"/>
+<rectangle x1="-0.554" y1="-0.3048" x2="-0.254" y2="0.2951" layer="21"/>
+<rectangle x1="0.2588" y1="-0.3048" x2="0.5588" y2="0.2951" layer="21"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
 <package name="0302">
@@ -286,16 +283,16 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="4" x="-0.25" y="0.3" dx="0.3" dy="0.3" layer="1" rot="R90"/>
 <text x="0" y="-1.229" size="0.6096" layer="25" align="center">&gt;NAME</text>
 <text x="0" y="1.184" size="0.6096" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-0.425" y1="0.325" x2="0.425" y2="0.325" width="0.2" layer="51"/>
-<wire x1="0.425" y1="0.325" x2="0.425" y2="-0.325" width="0.2" layer="51"/>
-<wire x1="0.425" y1="-0.325" x2="-0.425" y2="-0.325" width="0.2" layer="51"/>
-<wire x1="-0.425" y1="-0.325" x2="-0.425" y2="0.325" width="0.2" layer="51"/>
+<wire x1="-0.425" y1="0.325" x2="0.425" y2="0.325" width="0.12" layer="21"/>
+<wire x1="0.425" y1="0.325" x2="0.425" y2="-0.325" width="0.12" layer="21"/>
+<wire x1="0.425" y1="-0.325" x2="-0.425" y2="-0.325" width="0.12" layer="21"/>
+<wire x1="-0.425" y1="-0.325" x2="-0.425" y2="0.325" width="0.12" layer="21"/>
 <wire x1="-0.873" y1="0.75" x2="0.873" y2="0.75" width="0.1" layer="51"/>
 <wire x1="0.873" y1="0.75" x2="0.873" y2="-0.794" width="0.1" layer="51"/>
 <wire x1="0.873" y1="-0.794" x2="-0.873" y2="-0.794" width="0.1" layer="51"/>
 <wire x1="-0.873" y1="-0.794" x2="-0.873" y2="0.75" width="0.1" layer="51"/>
-<wire x1="-0.3" y1="-0.246" x2="0.3" y2="-0.246" width="0.1" layer="21"/>
-<wire x1="-0.3" y1="0.246" x2="0.3" y2="0.246" width="0.1" layer="21"/>
+<wire x1="-0.3" y1="-0.246" x2="0.3" y2="-0.246" width="0.1" layer="51"/>
+<wire x1="-0.3" y1="0.246" x2="0.3" y2="0.246" width="0.1" layer="51"/>
 </package>
 <package name="0.65X0.35X0.2MM(0201)SMDCHIPLE">
 <description>&lt;b&gt;0.65X0.35X0.2MM(0201)SMDCHIPLEDLAMP_1&lt;/b&gt;&lt;br&gt;
@@ -304,10 +301,10 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="2" x="0.2" y="0" dx="0.35" dy="0.2" layer="1" rot="R90"/>
 <text x="-0.074" y="0.571" size="0.4064" layer="27" align="center">&gt;VALUE</text>
 <text x="-0.053" y="-0.571" size="0.4064" layer="25" rot="R180" align="center">&gt;NAME</text>
-<wire x1="-0.325" y1="0.175" x2="0.325" y2="0.175" width="0.2" layer="51"/>
-<wire x1="0.325" y1="0.175" x2="0.325" y2="-0.175" width="0.2" layer="51"/>
-<wire x1="0.325" y1="-0.175" x2="-0.325" y2="-0.175" width="0.2" layer="51"/>
-<wire x1="-0.325" y1="-0.175" x2="-0.325" y2="0.175" width="0.2" layer="51"/>
+<wire x1="-0.325" y1="0.175" x2="0.325" y2="0.175" width="0.12" layer="21"/>
+<wire x1="0.325" y1="0.175" x2="0.325" y2="-0.175" width="0.12" layer="21"/>
+<wire x1="0.325" y1="-0.175" x2="-0.325" y2="-0.175" width="0.12" layer="21"/>
+<wire x1="-0.325" y1="-0.175" x2="-0.325" y2="0.175" width="0.12" layer="21"/>
 </package>
 <package name="MIC-PACK">
 <smd name="GND" x="-1.225" y="0" dx="0.35" dy="2.3" layer="1"/>
@@ -402,19 +399,19 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="J7" x="0.8" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
 <smd name="J8" x="1.2" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
 <smd name="J9" x="1.6" y="-1.6" dx="0.2286" dy="0.2286" layer="1" roundness="100"/>
-<wire x1="-2.2098" y1="0" x2="-2.4638" y2="0" width="0.1524" layer="21"/>
-<wire x1="2.2098" y1="0" x2="2.4638" y2="0" width="0.1524" layer="21"/>
-<wire x1="-1.778" y1="2.0066" x2="-2.3368" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="1.778" y1="-2.0066" x2="2.3368" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.3368" y1="-2.0066" x2="-1.778" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="2.3368" y1="-2.0066" x2="2.3368" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="2.3368" y1="2.0066" x2="1.778" y2="2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.3368" y1="2.0066" x2="-2.3368" y2="-2.0066" width="0.1524" layer="21"/>
-<wire x1="-2.0066" y1="1.8796" x2="-2.2098" y2="1.6764" width="0.1524" layer="51"/>
-<wire x1="-2.2098" y1="-1.8796" x2="2.2098" y2="-1.8796" width="0.1524" layer="51"/>
-<wire x1="2.2098" y1="-1.8796" x2="2.2098" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="2.2098" y1="1.8796" x2="-2.2098" y2="1.8796" width="0.1524" layer="51"/>
-<wire x1="-2.2098" y1="1.8796" x2="-2.2098" y2="-1.8796" width="0.1524" layer="51"/>
+<wire x1="-2.2098" y1="0" x2="-2.4638" y2="0" width="0.1524" layer="51"/>
+<wire x1="2.2098" y1="0" x2="2.4638" y2="0" width="0.1524" layer="51"/>
+<wire x1="-1.778" y1="2.0066" x2="-2.3368" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="1.778" y1="-2.0066" x2="2.3368" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.3368" y1="-2.0066" x2="-1.778" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="2.3368" y1="-2.0066" x2="2.3368" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="2.3368" y1="2.0066" x2="1.778" y2="2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.3368" y1="2.0066" x2="-2.3368" y2="-2.0066" width="0.1524" layer="51"/>
+<wire x1="-2.0066" y1="1.8796" x2="-2.2098" y2="1.6764" width="0.1524" layer="25"/>
+<wire x1="-2.2098" y1="-1.8796" x2="2.2098" y2="-1.8796" width="0.1524" layer="21"/>
+<wire x1="2.2098" y1="-1.8796" x2="2.2098" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="2.2098" y1="1.8796" x2="-2.2098" y2="1.8796" width="0.1524" layer="21"/>
+<wire x1="-2.2098" y1="1.8796" x2="-2.2098" y2="-1.8796" width="0.1524" layer="21"/>
 <text x="-1.2446" y="-2.54" size="0.4064" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 <package name="QFN40P180X260X55-17N">
@@ -443,10 +440,10 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="1.525" y1="1.925" x2="1.525" y2="-1.925" width="0.05" layer="51"/>
 <wire x1="1.525" y1="-1.925" x2="-1.525" y2="-1.925" width="0.05" layer="51"/>
 <wire x1="-1.525" y1="-1.925" x2="-1.525" y2="1.925" width="0.05" layer="51"/>
-<wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.1" layer="51"/>
-<wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.1" layer="51"/>
-<wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.1" layer="51"/>
+<wire x1="-0.9" y1="1.3" x2="0.9" y2="1.3" width="0.1" layer="21"/>
+<wire x1="0.9" y1="1.3" x2="0.9" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="0.9" y1="-1.3" x2="-0.9" y2="-1.3" width="0.1" layer="21"/>
+<wire x1="-0.9" y1="-1.3" x2="-0.9" y2="1.3" width="0.1" layer="21"/>
 <wire x1="-0.9" y1="0.9" x2="-0.5" y2="1.3" width="0.1" layer="51"/>
 <circle x="-1.3" y="1.2" radius="0.1" width="0.2" layer="25"/>
 </package>
@@ -484,17 +481,17 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="2.11" y1="2.155" x2="2.11" y2="-2.155" width="0.05" layer="51"/>
 <wire x1="2.11" y1="-2.155" x2="-2.11" y2="-2.155" width="0.05" layer="51"/>
 <wire x1="-2.11" y1="-2.155" x2="-2.11" y2="2.155" width="0.05" layer="51"/>
-<wire x1="-1.095" y1="1.14" x2="1.095" y2="1.14" width="0.1" layer="51"/>
-<wire x1="1.095" y1="1.14" x2="1.095" y2="-1.14" width="0.1" layer="51"/>
-<wire x1="1.095" y1="-1.14" x2="-1.095" y2="-1.14" width="0.1" layer="51"/>
-<wire x1="-1.095" y1="-1.14" x2="-1.095" y2="1.14" width="0.1" layer="51"/>
+<wire x1="-1.095" y1="1.14" x2="1.095" y2="1.14" width="0.1" layer="21"/>
+<wire x1="1.095" y1="1.14" x2="1.095" y2="-1.14" width="0.1" layer="21"/>
+<wire x1="1.095" y1="-1.14" x2="-1.095" y2="-1.14" width="0.1" layer="21"/>
+<wire x1="-1.095" y1="-1.14" x2="-1.095" y2="1.14" width="0.1" layer="21"/>
 <wire x1="-1.095" y1="0.562" x2="-0.517" y2="1.14" width="0.1" layer="51"/>
-<wire x1="-0.8" y1="1.254" x2="1.254" y2="1.254" width="0.2" layer="21"/>
-<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.2" layer="21"/>
-<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.2" layer="21"/>
-<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="0.8" width="0.2" layer="21"/>
-<wire x1="-1.254" y1="0.8" x2="-0.8" y2="1.254" width="0.2" layer="21"/>
-<circle x="-1.254" y="1.254" radius="0.1" width="0.2" layer="25"/>
+<wire x1="-0.8" y1="1.254" x2="1.254" y2="1.254" width="0.12" layer="51"/>
+<wire x1="1.254" y1="1.254" x2="1.254" y2="-1.254" width="0.12" layer="51"/>
+<wire x1="1.254" y1="-1.254" x2="-1.254" y2="-1.254" width="0.12" layer="51"/>
+<wire x1="-1.254" y1="-1.254" x2="-1.254" y2="0.8" width="0.12" layer="51"/>
+<wire x1="-1.254" y1="0.8" x2="-0.8" y2="1.254" width="0.12" layer="51"/>
+<circle x="-1.254" y="1.254" radius="0.0508" width="0.2" layer="25"/>
 </package>
 <package name="FLIPCHIP-2">
 <smd name="B1" x="-0.2" y="-0.2" dx="0.22" dy="0.22" layer="1" roundness="100"/>
@@ -504,18 +501,18 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="-0.4" y1="0.4" x2="0.4" y2="0.4" width="0.05" layer="21"/>
 <wire x1="0.4" y1="0.4" x2="0.4" y2="-0.4" width="0.05" layer="21"/>
 <wire x1="0.4" y1="-0.4" x2="-0.4" y2="-0.4" width="0.05" layer="21"/>
-<wire x1="-0.4" y1="-0.4" x2="-0.4" y2="0.4" width="0.05" layer="22"/>
-<circle x="-0.508" y="0.508" radius="0.05" width="0.1" layer="21"/>
+<wire x1="-0.4" y1="-0.4" x2="-0.4" y2="0.4" width="0.05" layer="21"/>
+<circle x="-0.508" y="0.508" radius="0.05" width="0.1" layer="25"/>
 </package>
 <package name="ABS06-107">
 <description>CHIP, 2.2352 X 1.5985 X 0.7 mm body
 &lt;p&gt;CHIP package with body size 2.2352 X 1.5985 X 0.7 mm&lt;/p&gt;</description>
-<wire x1="1.1176" y1="0.9676" x2="-1.1176" y2="0.9676" width="0.12" layer="21"/>
-<wire x1="1.1176" y1="-0.9676" x2="-1.1176" y2="-0.9676" width="0.12" layer="21"/>
-<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.12" layer="51"/>
-<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.12" layer="51"/>
-<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.12" layer="51"/>
-<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.12" layer="51"/>
+<wire x1="1.1176" y1="0.9676" x2="-1.1176" y2="0.9676" width="0.12" layer="51"/>
+<wire x1="1.1176" y1="-0.9676" x2="-1.1176" y2="-0.9676" width="0.12" layer="51"/>
+<wire x1="1" y1="-0.6" x2="-1" y2="-0.6" width="0.12" layer="21"/>
+<wire x1="-1" y1="-0.6" x2="-1" y2="0.6" width="0.12" layer="21"/>
+<wire x1="-1" y1="0.6" x2="1" y2="0.6" width="0.12" layer="21"/>
+<wire x1="1" y1="0.6" x2="1" y2="-0.6" width="0.12" layer="21"/>
 <smd name="1" x="-0.725" y="0" dx="0.75" dy="1.4" layer="1"/>
 <smd name="2" x="0.725" y="0" dx="0.75" dy="1.4" layer="1"/>
 <text x="0" y="1.0946" size="0.4064" layer="25" align="bottom-center">&gt;NAME</text>
@@ -561,8 +558,8 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <smd name="35" x="1" y="-1.8" dx="0.6" dy="0.3" layer="1"/>
 <smd name="36" x="-2.898" y="3.15" dx="0.6" dy="0.3" layer="1"/>
 <smd name="37" x="2.9" y="3.15" dx="0.6" dy="0.3" layer="1"/>
-<text x="0" y="-0.225" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="0" y="-0.225" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<text x="0" y="6.633" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="5.109" size="1.27" layer="27" align="center">&gt;VALUE</text>
 <wire x1="-3.5" y1="3.7" x2="3.5" y2="3.7" width="0.2" layer="51"/>
 <wire x1="3.5" y1="3.7" x2="3.5" y2="-3.7" width="0.2" layer="51"/>
 <wire x1="3.5" y1="-3.7" x2="-3.5" y2="-3.7" width="0.2" layer="51"/>
@@ -575,34 +572,32 @@ Micro-USB AB Receptacle, Bottom Mount, SMT, Lead-Free&lt;/a&gt; (&lt;a href="htt
 <wire x1="4.2" y1="4.4" x2="4.2" y2="-4.85" width="0.1" layer="51"/>
 <wire x1="4.2" y1="-4.85" x2="-4.2" y2="-4.85" width="0.1" layer="51"/>
 <wire x1="-4.2" y1="-4.85" x2="-4.2" y2="4.4" width="0.1" layer="51"/>
-<wire x1="-2" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="21"/>
-<wire x1="-2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="21" curve="-180"/>
-<wire x1="-1.9" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="21"/>
-<wire x1="-1.9" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="21" curve="-180"/>
+<wire x1="-2" y1="-4.1" x2="-1.9" y2="-4.1" width="0.1" layer="25" curve="-180"/>
+<wire x1="-1.9" y1="-4.1" x2="-2" y2="-4.1" width="0.1" layer="25" curve="-180"/>
 </package>
-<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1">
+<package name="C0402K" urn="urn:adsk.eagle:footprint:23186/1" locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0204 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1005</description>
-<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="51"/>
-<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="51"/>
+<wire x1="-0.425" y1="0.2" x2="0.425" y2="0.2" width="0.1016" layer="21"/>
+<wire x1="0.425" y1="-0.2" x2="-0.425" y2="-0.2" width="0.1016" layer="21"/>
 <smd name="1" x="-0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
 <smd name="2" x="0.6" y="0" dx="0.925" dy="0.74" layer="1"/>
 <text x="-0.5" y="0.425" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.5" y="-1.45" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="51"/>
-<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="51"/>
+<rectangle x1="-0.5" y1="-0.25" x2="-0.225" y2="0.25" layer="21"/>
+<rectangle x1="0.225" y1="-0.25" x2="0.5" y2="0.25" layer="21"/>
 </package>
-<package name="C0603K" urn="urn:adsk.eagle:footprint:23187/1">
+<package name="C0603K" urn="urn:adsk.eagle:footprint:23187/1" locally_modified="yes">
 <description>&lt;b&gt;Ceramic Chip Capacitor KEMET 0603 reflow solder&lt;/b&gt;&lt;p&gt;
 Metric Code Size 1608</description>
-<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="51"/>
-<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="51"/>
+<wire x1="-0.725" y1="0.35" x2="0.725" y2="0.35" width="0.1016" layer="21"/>
+<wire x1="0.725" y1="-0.35" x2="-0.725" y2="-0.35" width="0.1016" layer="21"/>
 <smd name="1" x="-0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
 <smd name="2" x="0.875" y="0" dx="1.05" dy="1.08" layer="1"/>
 <text x="-0.8" y="0.65" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.8" y="-1.65" size="1.016" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="51"/>
-<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="51"/>
+<rectangle x1="-0.8" y1="-0.4" x2="-0.45" y2="0.4" layer="21"/>
+<rectangle x1="0.45" y1="-0.4" x2="0.8" y2="0.4" layer="21"/>
 </package>
 <package name="SOD-523">
 <description>&lt;b&gt;SOD-523 CASE 502&lt;/b&gt;&lt;br&gt;
@@ -615,11 +610,11 @@ Metric Code Size 1608</description>
 <wire x1="1.22" y1="0.6" x2="1.22" y2="-0.6" width="0.05" layer="51"/>
 <wire x1="1.22" y1="-0.6" x2="-1.22" y2="-0.6" width="0.05" layer="51"/>
 <wire x1="-1.22" y1="-0.6" x2="-1.22" y2="0.6" width="0.05" layer="51"/>
-<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.1" layer="51"/>
-<wire x1="-0.6" y1="0.08" x2="-0.28" y2="0.4" width="0.1" layer="51"/>
+<wire x1="-0.6" y1="0.4" x2="0.6" y2="0.4" width="0.1" layer="21"/>
+<wire x1="0.6" y1="0.4" x2="0.6" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="0.6" y1="-0.4" x2="-0.6" y2="-0.4" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="-0.4" x2="-0.6" y2="0.4" width="0.1" layer="21"/>
+<wire x1="-0.6" y1="0.08" x2="-0.28" y2="0.4" width="0.1" layer="25"/>
 </package>
 </packages>
 <packages3d>
@@ -630,21 +625,21 @@ Metric Code Size 1608</description>
 <packageinstance name="0201_X30"/>
 </packageinstances>
 </package3d>
-<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" type="model">
+<package3d name="CAPC1005X60" urn="urn:adsk.eagle:package:23626/2" locally_modified="yes" type="model">
 <description>Chip, 1.00 X 0.50 X 0.60 mm body
 &lt;p&gt;Chip package with body size 1.00 X 0.50 X 0.60 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="C0402"/>
 </packageinstances>
 </package3d>
-<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" type="model">
+<package3d name="C0402K" urn="urn:adsk.eagle:package:23679/2" locally_modified="yes" type="model">
 <description>Ceramic Chip Capacitor KEMET 0204 reflow solder
 Metric Code Size 1005</description>
 <packageinstances>
 <packageinstance name="C0402K"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" type="model">
+<package3d name="C0603K" urn="urn:adsk.eagle:package:23680/2" locally_modified="yes" type="model">
 <description>Ceramic Chip Capacitor KEMET 0603 reflow solder
 Metric Code Size 1608</description>
 <packageinstances>
@@ -1156,80 +1151,112 @@ Metric Code Size 1608</description>
 <clearance class="0" value="0.205"/>
 </class>
 </classes>
-<designrules name="default *">
-<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+<designrules name="main">
+<description language="de">
+
 &lt;p&gt;
-Die Standard-Design-Rules sind so gewählt, dass sie für 
-die meisten Anwendungen passen. Sollte ihre Platine 
-besondere Anforderungen haben, treffen Sie die erforderlichen
-Einstellungen hier und speichern die Design Rules unter 
-einem neuen Namen ab.</description>
-<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;4-layer PatternClass6 BaseCopperO18-I35 eCDefault&lt;/b&gt;
 &lt;p&gt;
-The default Design Rules have been set to cover
-a wide range of applications. Your particular design
-may have different requirements, so please make the
-necessary adjustments and save your customized
-design rules under a new name.</description>
-<param name="layerSetup" value="(1+2*15+16)"/>
-<param name="mtCopper" value="0.025mm 0.035mm 0.035mm 0.025mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.025mm"/>
-<param name="mtIsolate" value="0.175mm 0.33mm 0.175mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.175mm"/>
-<param name="mdWireWire" value="6mil"/>
-<param name="mdWirePad" value="6mil"/>
-<param name="mdWireVia" value="6mil"/>
-<param name="mdPadPad" value="6mil"/>
-<param name="mdPadVia" value="6mil"/>
-<param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.35mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
+</description>
+<description language="en">
+
+&lt;p&gt;
+&lt;b&gt;Eurocircuits-EAGLE design rules&lt;/b&gt;&lt;br&gt;
+&lt;br&gt;
+Setup for &lt;b&gt;4-layer PatternClass6 BaseCopperO18-I35 eCDefault&lt;/b&gt;
+&lt;p&gt;
+ The option &lt;b&gt;Sizes-Minimum Drill&lt;/b&gt; is set to 0.35mm. This minimum drill endsize can be set lower if needed. Values below 0.25mm will result in a higher DrillClassification. For details see the Eurocircuits Classification overview.
+&lt;p&gt;
+&lt;u&gt;Extra Notes:&lt;/u&gt;&lt;br&gt;
+- The option &lt;b&gt;Distance-Copper/Dimension&lt;/b&gt; is set to 0.25mm, the default for boards with a routed boardoutline. If you require Vcut on your board this parameter should be set to 0.45mm.&lt;br&gt;
+- The option &lt;b&gt;Supply-Generate thermals for vias&lt;/b&gt; is on by default but may be changed if required.&lt;br&gt;
+- The option &lt;b&gt;Mask-Stop&lt;/b&gt; is set to 0mm oversize which is the preffered value.&lt;br&gt;
+- The option &lt;b&gt;Mask-Cream&lt;/b&gt; is set to 0mm oversize by default, but may be changed if required&lt;br&gt;
+- The option &lt;b&gt;Mask-Limit&lt;/b&gt; is set to 0.45mm, resulting in covered or tented via holes for vias of 0.45mm and smaller. The option may be changed if required.&lt;br&gt;
+- The options &lt;b&gt;Shapes&lt;/b&gt; and &lt;b&gt;Misc&lt;/b&gt; are not relevant. Values for &lt;b&gt;Shapes-Smds-Roundness&lt;/b&gt; are not critical and can be set as you require.
+&lt;p&gt;
+&lt;p&gt;
+You can set higher minimum values if you wish, setting lower minimum values is &lt;u&gt;not advisable&lt;/u&gt;.&lt;br&gt;
+If you need lower minimum values, please use a different Eurocircuits-EAGLE design rule file. For details see the Eurocircuits-EAGLE dru overview table.
+&lt;p&gt;
+Your Eurocircuits Team
+</description>
+<param name="layerSetup" value="(1+2*3+16)"/>
+<param name="mtCopper" value="0.018mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.018mm"/>
+<param name="mtIsolate" value="0.36mm 0.71mm 0.36mm 0.2mm 0.2mm 0.2mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="0.15mm"/>
+<param name="mdWirePad" value="0.15mm"/>
+<param name="mdWireVia" value="0.15mm"/>
+<param name="mdPadPad" value="0.15mm"/>
+<param name="mdPadVia" value="0.15mm"/>
+<param name="mdViaVia" value="0.15mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="0.2mm"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="6mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="0.25mm"/>
+<param name="mdDrill" value="0.35mm"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="6mil"/>
+<param name="msWidth" value="0.15mm"/>
 <param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msMicroVia" value="25mm"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
 <param name="rvPadBottom" value="0.25"/>
 <param name="rvViaOuter" value="0.25"/>
 <param name="rvViaInner" value="0.25"/>
-<param name="rvMicroViaOuter" value="0.25"/>
-<param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="10mil"/>
-<param name="rlMaxPadTop" value="20mil"/>
-<param name="rlMinPadInner" value="10mil"/>
-<param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="10mil"/>
-<param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
-<param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
-<param name="rlMaxViaInner" value="20mil"/>
-<param name="rlMinMicroViaOuter" value="4mil"/>
-<param name="rlMaxMicroViaOuter" value="20mil"/>
-<param name="rlMinMicroViaInner" value="4mil"/>
-<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="rvMicroViaOuter" value="0"/>
+<param name="rvMicroViaInner" value="0"/>
+<param name="rlMinPadTop" value="0.175mm"/>
+<param name="rlMaxPadTop" value="2.5mm"/>
+<param name="rlMinPadInner" value="0.175mm"/>
+<param name="rlMaxPadInner" value="2.5mm"/>
+<param name="rlMinPadBottom" value="0.175mm"/>
+<param name="rlMaxPadBottom" value="2.5mm"/>
+<param name="rlMinViaOuter" value="0.125mm"/>
+<param name="rlMaxViaOuter" value="2.5mm"/>
+<param name="rlMinViaInner" value="0.125mm"/>
+<param name="rlMaxViaInner" value="2.5mm"/>
+<param name="rlMinMicroViaOuter" value="2.5mm"/>
+<param name="rlMaxMicroViaOuter" value="25mm"/>
+<param name="rlMinMicroViaInner" value="2.5mm"/>
+<param name="rlMaxMicroViaInner" value="25mm"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="-1"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="1"/>
+<param name="mvStopFrame" value="0"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="0mil"/>
+<param name="mlMaxStopFrame" value="0mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="0.45mm"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="10mil"/>
-<param name="slThermalsForVias" value="0"/>
+<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalsForVias" value="1"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
@@ -2165,6 +2192,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="SEL_STM_BLU">
 <contactref element="U4" pad="10"/>
+<contactref element="U1" pad="J4"/>
+<contactref element="R9" pad="2"/>
+<wire x1="10.465" y1="6.839" x2="13.396" y2="2.613" width="0" layer="19" extent="16-16"/>
+<wire x1="-6.0291" y1="-3.81" x2="10.465" y2="6.839" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="SWDIO_BLU">
 <contactref element="U4" pad="14"/>
@@ -2190,12 +2221,8 @@ design rules under a new name.</description>
 <contactref element="U4" pad="3"/>
 <contactref element="U1" pad="E1"/>
 <contactref element="R6" pad="2"/>
-<contactref element="U1" pad="J4"/>
-<contactref element="R9" pad="2"/>
-<wire x1="10.465" y1="6.839" x2="-6.0291" y2="-3.81" width="0" layer="19" extent="1-1"/>
-<wire x1="12.065" y1="5.639" x2="10.465" y2="6.839" width="0" layer="19" extent="1-1"/>
-<wire x1="11.496" y1="2.613" x2="10.465" y2="6.839" width="0" layer="19" extent="1-1"/>
-<wire x1="-11.1091" y1="16.51" x2="11.496" y2="2.613" width="0" layer="19" extent="1-1"/>
+<wire x1="11.496" y1="2.613" x2="12.065" y2="5.639" width="0" layer="19" extent="16-16"/>
+<wire x1="-11.1091" y1="16.51" x2="12.065" y2="5.639" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="N$23">
 <contactref element="R10" pad="2"/>
